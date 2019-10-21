@@ -14,10 +14,19 @@
 !@##define SCREEN_HEIGHT 64 // OLED display height, in pixels
 
 
+
+
+ne SCREEN_HEIGHT 64 // OLED display height, in pixels
+
+
 #define OLED_ADDR   0x3C
 
-ruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+####Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
+
+
+y
+PWM_pin = 3;  //Pin for PWM signal to the MOSFET driver (the BJT npn with pullup)
 int PWM_pin = 3;  //Pin for PWM signal to the MOSFET driver (the BJT npn with pullup)
 int clk = 8;      //Pin 1 from rotary encoder
 int data = 9;     //Pin 2 from rotary encoder
