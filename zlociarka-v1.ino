@@ -15,7 +15,7 @@
 
 #define OLED_ADDR   0x3C
 
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+####Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 int PWM_pin = 3;  //Pin for PWM signal to the MOSFET driver (the BJT npn with pullup)
 int clk = 8;      //Pin 1 from rotary encoder
