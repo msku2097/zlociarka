@@ -1,8 +1,9 @@
 
 #include <SPI.h>
 
+#dupa dupa
 
-#include <Wire.h> 
+#e <Wire.h> 
 #include <LiquidCrystal_I2C.h>
 #include <Adafruit_SSD1306.h>
 #include <Adafruit_GFX.h>
